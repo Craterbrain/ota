@@ -20,7 +20,7 @@ jobs:
   build-devices:
     strategy:
       matrix:
-#         include:
+         include:
 #           - device-id: tangorpro # Pixel Tablet
 #             magisk-preinit-device: sda5
 #           - device-id: tegu # Pixel 9a
